@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(
+    136deg,
+    rgb(50, 82, 136),
+    rgb(17, 78, 96),
+    rgb(245, 206, 190)
+  );
+}
+
+#form1,
+#form2,
+#form3 {
+  background-color: rgb(244, 238, 232);
+}
+
+h1 {
+  color: rgb(17, 78, 96);
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  background: rgb(17, 78, 96);
+}
+#output {
+  background-color: rgb(244, 238, 232);
+}
+
+#output li {
+  width: 85%;
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+#output li i {
+  cursor: pointer;
+}
